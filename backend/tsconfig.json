@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es2020",          /* Convert code to modern JS */
+    "module": "commonjs",        /* Node uses CommonJS by default */
+    "rootDir": "../",          /* Where we write code */
+    "outDir": "./dist",          /* Where the compiled JS goes */
+    "strict": true,              /* Enforce strict typing (The "Harvard" standard) */
+    "esModuleInterop": true      /* Allows using 'import' instead of 'require' */
+  },
+  "include": ["src/**/*", "../shared/**/*"],
+  "exclude": ["node_modules"]
+}

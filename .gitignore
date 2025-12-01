@@ -1,0 +1,40 @@
+# --- Dependencies ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Build Outputs (Covers both React & Node) ---
+dist/
+build/
+out/
+coverage/
+
+# --- Environment Variables (CRITICAL) ---
+# Ignore all .env files in any folder to protect secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# --- Editor & System Files ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Optional: Testing ---
+cypress/videos
+cypress/screenshots
+playwright-report/
