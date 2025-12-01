@@ -1,4 +1,5 @@
-niRes Portal - University Resource Management System
+***UniRes Portal - University Resource Management System***
+
 UniRes is a full-stack internal tool designed to streamline the scheduling of university laboratories and physical assets (laptops, VR headsets). Unlike standard booking apps, UniRes implements a state-based locking mechanism to track physical device returns and prevent scheduling conflicts.
 
 Key Features
