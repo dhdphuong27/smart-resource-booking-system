@@ -24,7 +24,7 @@ root/ ├── backend/ # Node.js API
       └── README.md
       
 ### Quick Start
-- Clone & Install git clone https://github.com/your-username/unires-portal.git npm install # Install backend deps cd client && npm install # Install frontend deps
+- Clone & Install git clone https://github.com/dhdphuong27/unires-portal.git npm install # Install backend deps cd client && npm install # Install frontend deps
 - Configuration Create a .env file in the root directory: PORT=5000 MONGO_URI=your_mongodb_connection_string JWT_SECRET=your_super_secret_key
 - Seed Data (Crucial for Testing) Populate the DB with dummy data (Admin, Students, Rooms, Devices): npm run data:import
 - Run Development Server
@@ -33,7 +33,7 @@ root/ ├── backend/ # Node.js API
 - Terminal 2 (Frontend)
     cd client && npm run dev
 
-### Credentials for Testing
+### Credentials for Testing (can be found in seeder file)
 Admin: admin@university.edu / 123
 Student: alice.nguyen@student.university.edu / 123
 
